@@ -1,0 +1,43 @@
+/* body{
+    text-align: center;
+}   */
+#game{
+    display: block;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    padding: auto;
+    border: 2px solid #aaaaaa;
+    box-shadow: 0 0 10px #aaaaaa;
+    border-radius: 5px;
+}
+
+h1{
+    text-shadow:0 0 5px aqua;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    width: 300px;
+    margin: 0 auto;
+    
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    border: 2px solid magenta;
+    cursor: pointer;
+}
+.cell:hover {
+    background-color: #e1e1e1;
+}
+
+#winner{
+    color: blue;
+    font-weight: 700;
+
+}
